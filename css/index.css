@@ -28,6 +28,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.topper {
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+header nav  {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 27px 1%;
+    margin-left: 8%;
+    font-size: 14px;
+    color: black; 
+    
+} 
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.photo {
+    width: 100%;
+    object-fit: cover;
+}
 body {
 	line-height: 1;
 }
@@ -75,6 +101,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -113,11 +140,11 @@ p {
 }
 
 .box1 {width: 12.5%;
-height: 100px;background-color: Teal; margin: 20px 2.5%;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;}
+    height: 100px;background-color: Teal; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
 .box2 {width: 12.5%;
     height: 100px;background-color: gold; margin: 20px 2.5%;
     color: white;
