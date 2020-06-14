@@ -36,23 +36,25 @@ footer, header, hgroup, menu, nav, section {
     margin-bottom: 5px;
 }
 header nav  {
-    width: 100%;
+    width: 180%;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
     padding: 27px 1%;
-    margin-left: 8%;
+    margin-left: 15%;
     font-size: 14px;
     color: black; 
     
 } 
-nav a {
+nav a {width: 100%;
+    display: flex;
+    justify-content: space-evenly;
     color: black;
     text-decoration: none;
 }
 .photo {
-    width: 100%;
-    object-fit: cover;
+    width: 150%;
+    object-fit: fill;
 }
 body {
 	line-height: 1;
