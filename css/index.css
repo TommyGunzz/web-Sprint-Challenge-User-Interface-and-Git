@@ -28,12 +28,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 .logo {
     display: inline-flex;
     flex-wrap: wrap;
     margin-left: 18%;
     margin-top: 2%;
-   ;
 }
 
 header nav  {
@@ -46,7 +46,6 @@ header nav  {
     margin-bottom: 2em;
     font-size: 16px;
     color: black; 
-    
 } 
 
 nav a {width: 100%;
@@ -144,9 +143,6 @@ p {
     color: white;
     display: flex;
     align-items: center;
-    
-    
-    
 }
 
 .box1 {width: 12.5%;
@@ -155,54 +151,64 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box2 {width: 12.5%;
     height: 100px;background-color: gold; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;} 
+    justify-content: center;}
+
 .box3 {width: 12.5%;
     height: 100px;background-color: cadetblue; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box4 {width: 12.5%;
     height: 100px;background-color: coral; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box5 {width: 12.5%;
     height: 100px;background-color: crimson; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box6 {width: 12.5%;
     height: 100px;background-color: forestgreen; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box7 {width: 12.5%;
     height: 100px;background-color: darkorchid; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box8 {width: 12.5%;
     height: 100px;background-color: hotpink; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;}
+
 .box9 {width: 12.5%;
     height: 100px;background-color: indigo; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+}
+
 .box10 {width: 12.5%;
     height: 100px;background-color: dodgerblue; margin: 20px 2.5%;
     color: white;
@@ -224,6 +230,7 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
 .container-about-page {
     width: 40%;
     display: inline-flex;
@@ -231,14 +238,12 @@ p {
     justify-content: right;
 }
 .img-about {
-    width: 100%;
+    width: 100;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-between ;
-    
-    
-    
 }
+
 footer {
     width: 70%;
     margin-left: 18%;
