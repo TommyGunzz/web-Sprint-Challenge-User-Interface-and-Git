@@ -28,6 +28,37 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.logo {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 18%;
+    margin-top: 2%;
+}
+
+header nav  {
+    width: 45%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2 1%;
+    margin-left: 35%;
+    margin-bottom: 2em;
+    font-size: 16px;
+    color: black; 
+} 
+
+nav a {width: 100%;
+    color: black;
+    text-decoration: none;
+}
+.photo {
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 18%;
+    }
 body {
 	line-height: 1;
 }
@@ -67,7 +98,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -75,6 +106,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -82,11 +114,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2em;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 10%;
     border-bottom: 1px dashed black;
 }
 
@@ -96,25 +128,98 @@ p {
 }
 
 .middle-content .boxes {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
     justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 100%;
+    justify-content: space-evenly;
     background: black;
-    margin: 20px 2.5%;
+    margin: 20% 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.box1 {width: 12.5%;
+    height: 100px;background-color: Teal; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box2 {width: 12.5%;
+    height: 100px;background-color: gold; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box3 {width: 12.5%;
+    height: 100px;background-color: cadetblue; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box4 {width: 12.5%;
+    height: 100px;background-color: coral; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box5 {width: 12.5%;
+    height: 100px;background-color: crimson; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box6 {width: 12.5%;
+    height: 100px;background-color: forestgreen; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box7 {width: 12.5%;
+    height: 100px;background-color: darkorchid; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box8 {width: 12.5%;
+    height: 100px;background-color: hotpink; margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.box9 {width: 12.5%;
+    height: 100px;background-color: indigo; margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bottom-content {
+.box10 {width: 12.5%;
+    height: 100px;background-color: dodgerblue; margin: 20px 2.5%;
+    color: white;
     display: flex;
-    margin: 0 2% 20px;
+    align-items: center;
+    justify-content: center;}
+
+.bottom-content {
+    max-width: 60%;
+    display: flex;
+    margin: 1% 2% 2% 22%;
     justify-content: space-around;
 }
 
@@ -126,16 +231,31 @@ p {
     padding-right: 0;
 }
 
+.container-about-page {
+    width: 40%;
+    display: inline-flex;
+    margin: 1% 2% 2% 2%;
+    justify-content: right;
+}
+.img-about {
+    width: 100;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
 footer {
-    width: 100%;
+    width: 70%;
+    margin-left: 18%;
     background: black;
 }
 
 footer nav {
-    width: 60%;
+    width: 45%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 1%;
     padding: 20px 2%;
     font-size: 14px;
 }
